@@ -16,3 +16,17 @@ za unos je realizovano kao RichTextBox. Implementirane su opcije “Bold”, "It
 Takodje pored ovih opcija, na RichTextBox je dodan status bar i u njemu se prikazuje broj reči u RichTextBox-u. 
 
 Aplikacija ima iscrtan proizvoljan oblik prozora.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A WPF application was created that represents a simple information system. 
+
+The information system manages objects of only one class. The class contains one field that is of numeric type, one that is textual, one that represents the date, 
+one that will be used to display the image, and one that will reference the text file. 
+
+The WPF application itself has a table on the main window that shows the image and values of the most important fields for distinguishing objects. Each row in the table with objects also has three buttons, one of which is for calling the window for viewing a specific object, the other is for calling the window for changing the parameters of the selected object, and the third for deleting a specific object. Next to the table in the main window, there are buttons for adding a new object and a button for exiting the application. Clicking the Add New Object button calls up the Add New Object window where values for all object class fields can be entered.
+
+Validation of all fields is implemented in both windows. DataBinding within the table was also implemented. When modifying and adding a new object, one input field is implemented as a RichTextBox. The options "Bold", "Italic", "Underline", "change text color", "change font", and "change font size" have been implemented. 
+
+Also in addition to these options, a status bar has been added to the RichTextBox and it shows the number of words in the RichTextBox. 
+
+The application has drawn an arbitrary window shape.
