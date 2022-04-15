@@ -1,4 +1,4 @@
-# HCI_PZ1
+# HCI - KOMUNIKACIJA ČOVEK-RAČUNAR | HUMAN COMPUTER INTERACTION
 
 Kreirana je WPF aplikacija koja predstavlja jednostavan informacioni sistem. 
  
